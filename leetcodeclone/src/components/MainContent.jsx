@@ -54,14 +54,14 @@ export default function MainContent(){
 ];
 
 
-    return <div className="  w-full bg-[#1a1a1a] p-5" >
-        <div className="flex gap-5">
+    return <div className=" mt-3 w-full bg-[#1a1a1a] p-5" >
+        <div className="flex gap-5 mb-5 ">
             <div className=" flex gap-2 font-bold w-32 rounded-3xl bg-white" ><FilterIcon className="w-10 h-10" /><p className=" self-center  " >Filter</p></div>
             <button className=" border-1 border-[#3a3a3a] w-26 h-10 rounded-3xl py-1 px-2 bg-[#1a1a1a] text-white flex gap-2 justify-center items-center " ><p className="self-center" >Easy</p> <RemoveIcon className=" h-5 w-5" /> </button>
         </div>
 
         {solvedArray.map((item, index)=>{
-            return <Solved key={item.no}  color={index%2===0?"#1a1a1a":"#282828"} no={item.no} title={item.title} difficulty={"Easy"} />
+            return <Solved key={item.no}  color={index%2===0?"#282828":"#1a1a1a"} no={item.no} title={item.title} difficulty={"Easy"} />
         })}
     </div>
 }
