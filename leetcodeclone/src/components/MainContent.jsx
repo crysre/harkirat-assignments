@@ -6,7 +6,7 @@ import FilterCard from "./FilterCard";
 
 export default function MainContent(){
 
-    const [toggleFilter, SetToggleFilter] = useState(true)
+    const [toggleFilter, SetToggleFilter] = useState(false)
 
 
     const solvedArray = [
