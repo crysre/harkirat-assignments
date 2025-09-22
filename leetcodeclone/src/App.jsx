@@ -10,7 +10,7 @@ function App() {
      const [SidebarOpen, SetSidebarOpen] = useState(true)
 
   return (
-    <div className=' h-screen flex gap-10 bg-[#1a1a1a]' >
+    <div className=' h-screen flex flex-col sm:flex-row gap-10 bg-[#1a1a1a]' >
     <Sidebar SidebarOpen={SidebarOpen} SetSidebarOpen={SetSidebarOpen} />
     <ProgressCard/>
     <MainContent/>
