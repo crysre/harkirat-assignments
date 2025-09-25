@@ -5,10 +5,9 @@ export default function Faq(){
 
 
     return <div className="   gap-5 flex justify-center items-center flex-col" >
-        <p className=" text-center text-4xl font-bold" >Frequently Asked Questions</p>
-        <p className=" text-center w-120" >Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.</p>
-        <div className="flex  px-72 py-5 w-full flex-col" >
-            <FaqCard/>
+        <p className=" text-center text-3xl md:text-4xl font-bold" >Frequently Asked Questions</p>
+        <p className=" text-center w-110 md:w-120" >Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.</p>
+        <div className="flex px-32 md:px-72 py-5 w-full flex-col" >
             <FaqCard/>
             <FaqCard/>
             <FaqCard/>
