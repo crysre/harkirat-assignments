@@ -1,5 +1,4 @@
 import { useState } from "react";
-import hamburger from "../../images/icon-hamburger.svg";
 import bookmarkLogo from "../../images/logo-bookmark.svg"
 import { Menu , X} from 'lucide-react'
 

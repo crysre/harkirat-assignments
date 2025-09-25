@@ -5,6 +5,7 @@ import Features from './components/Features'
 import DownloadSection from './components/DownloadSection'
 import Faq from './components/Faq'
 import Cta from './components/Cta'
+import { Footer } from './components/Footer'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Faq/>
       </section>
       <Cta/>
+      <Footer/>
     </>
   )
 }
